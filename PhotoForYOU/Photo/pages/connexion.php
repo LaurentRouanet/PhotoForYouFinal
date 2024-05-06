@@ -1,5 +1,5 @@
 <?php
-include ("include/entete.inc.php");
+include ("../include/entete.inc.php");
 if (isset($_POST['identifier']))
 {
   if ($utilisateur=$manager->getUser($_POST['mail']))
@@ -83,5 +83,5 @@ if (isset($_POST['identifier']))
   </script>
 
   <?php
-    include ("include/piedDePage.inc.php");
+    include ("../include/piedDePage.inc.php");
   ?>
